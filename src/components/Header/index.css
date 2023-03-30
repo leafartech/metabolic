@@ -1,0 +1,40 @@
+.cabecalho {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.cabecalho img {
+    width: 104%;
+}
+.cabecalho nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #141414;
+    box-shadow: 2px 2px 12px rgba(255,255,255,0.06);
+}
+.cabecalho p {
+    color: #fff;
+    text-align: center;
+}
+.cabecalho a {
+    margin-top: -24px;
+}
+.cabecalho > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.cabecalho svg {
+    width: 22px;
+    height: 22px;
+    fill: #fff
+}

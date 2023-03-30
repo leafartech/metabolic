@@ -1,0 +1,22 @@
+main section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+main section > img {
+    width: 100%;
+}
+main section .content {
+    width: 100%;
+    max-width: 1200px;
+}
+main .content p {
+    padding: 0 12px;
+    color: #fff
+}
+main .mt-neg {
+    margin-top: -54px;
+}
