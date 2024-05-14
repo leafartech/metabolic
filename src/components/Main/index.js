@@ -26,7 +26,7 @@ const Main = () => {
                         titulo="Por que ele funciona tão bem?"
                         subtitulo="Saiba mais sobre o Metabolic Fire."
                     />
-                    <p className="mt">O segredo está na fórmula!</p>
+                    <p className="mt">O segredo está na pote!</p>
                     <p>Elaborada por um <span className="bold">especialista da área da saúde</span>, ela engloba enzimas e nutrientes que aceleram o seu metabolismo e estimulam o corpo a usar a <span className="bold">gordura como principal fonte de energia</span>, fazendo a pessoa perder peso de forma eficaz e duradoura.</p>
                 </div>
                 <img src="./images/bg2.png" alt="" />
