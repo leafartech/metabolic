@@ -74,7 +74,7 @@ const Main = () => {
                 />
                 <div className="mt-sm"></div>
                 <Pacote 
-                    titulo="Pacote 1 mês"
+                    titulo="Pacote 3 meses"
                     img="./images/pote.png"
                     desc="Contém 1 unidade de Metabolic Fire com 60 cápsulas"
                     valor="157"
