@@ -12,11 +12,14 @@ const Main = () => {
         <main>
             <section>
                 <div className="content">
-                    <Headline 
-                        titulo="Veja abaixo resultados reais"  
+                    <Headline
+                        titulo="Veja abaixo resultados reais"
                         subtitulo="Obtidos depois do Metabolic Fire. Arrasta pro lado."
                     />
-                    <Slider />
+                    <div style={{display: 'flex', justifyContent: 'center'}}>
+                        <img src='../images/testimonials/1.png' alt='imagem' title='imagem' />
+                    </div>
+                    {/* <Slider /> */}
                 </div>
                 <img className="mt-sm" src="./images/prod2.png" alt="" />
             </section>
@@ -33,11 +36,11 @@ const Main = () => {
                 <Botao cta="QUERO MEU METABOLIC" />
             </section>
             <section className="pb">
-                <Headline 
+                <Headline
                     titulo="Benefícios do Metabolic Fire"
                 />
                 <div className="mt-sm"></div>
-                <Card 
+                <Card
                     img="./images/cards/1.png"
                     titulo="Acelera o metabolismo"
                     desc="O metabolismo acelerado faz com que a pessoa queime as calorias mais rapidamente, concentrando menos gorduras, de forma que fica mais difícil ganhar peso."
@@ -60,20 +63,20 @@ const Main = () => {
                 <Botao cta="QUERO MEU METABOLIC" />
             </section>
             <section>
-                <Headline 
+                <Headline
                     titulo="Conheça a fórmula!"
                     subtitulo=""
                 />
                 <Text />
-                <img className="lastImg" src="./images/bg3.png" alt="" /> 
+                <img className="lastImg" src="./images/bg3.png" alt="" />
             </section>
             <section className="" id="ofertas">
-                <Headline  
+                <Headline
                     titulo="Em dúvida sobre comprar pela internet?"
                     subtitulo="Fique tranquilo, comprar o Metabolic Fire é fácil, prático e totalmente seguro!"
                 />
                 <div className="mt-sm"></div>
-                <Pacote 
+                <Pacote
                     titulo="Pacote 3 meses"
                     img="./images/pote.png"
                     desc="Contém 1 unidade de Metabolic Fire com 60 cápsulas"
@@ -81,7 +84,7 @@ const Main = () => {
                     dividido="14"
                     url="https://seguro.onfirecompany.com.br/r/BDS8I6NGZ3"
                 />
-                <Pacote 
+                <Pacote
                     titulo="Pacote 3 meses"
                     img="./images/pote2.png"
                     desc="Contém 3 unidades de Metabolic Fire com 180 cápsulas"
@@ -90,7 +93,7 @@ const Main = () => {
                     economize="84"
                     url="https://seguro.onfirecompany.com.br/r/CO01VE2HYX"
                 />
-                <Pacote 
+                <Pacote
                     titulo="Pacote 5 meses"
                     img="./images/pote3.png"
                     desc="Contém 5 unidades de Metabolic Fire com 300 cápsulas"
@@ -99,11 +102,11 @@ const Main = () => {
                     economize="318"
                     url="https://seguro.onfirecompany.com.br/r/O7YTVJMYFD"
                 />
-                <p style={ { color: "#fff", textAlign: "center" }}>Ao escolher o melho pacote para você e clicar no botão "COMPRAR AGORA", você será redirecionado para uma das maiores e mais seguras plataformas de pagamento, a Yampi.</p>
+                <p style={{ color: "#fff", textAlign: "center" }}>Ao escolher o melho pacote para você e clicar no botão "COMPRAR AGORA", você será redirecionado para uma das maiores e mais seguras plataformas de pagamento, a Yampi.</p>
             </section>
             <section className="pb mt-neg">
                 <Garantia />
-                <Card 
+                <Card
                     img="./images/cards/5.png"
                     titulo="Mais informações"
                     desc="Se você ainda tiver alguma dúvida a respeito do produto, pode enviar mensagem no Whatsapp do número (73) 9 9959-9911. Em minuitos, alguém da nossa equipe vai te responder e te ajudar."
